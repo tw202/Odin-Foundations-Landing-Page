@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto';
     margin: 0px;
 }
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -48,12 +49,30 @@ a + a{
     font-weight: bold;
 }
 
+.information img{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
 .info-head{
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
     text-align: center;
     padding: 40px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    padding: 50px;
+    text-align: center;
 }
 
 button{
