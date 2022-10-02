@@ -48,6 +48,14 @@ a + a{
     font-weight: bold;
 }
 
+.info-head{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px;
+}
+
 button{
     background-color: #3882F6;
     font-size: 20px;
