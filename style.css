@@ -85,3 +85,13 @@ button{
     padding-right: 30px;
     
 }
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
+}
