@@ -5,7 +5,7 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
     padding-top: 20px;
     padding-bottom: 100px;
@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 450px;
+    padding-right: 50px;
 }
 
 .header-right{
@@ -108,5 +109,35 @@ button{
   text-align: right;
   width: 900px;
   font-weight: bold;
-  
+
+}
+
+.signup-area-container{
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-area{
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.signup-area-right{
+    padding-left: 100px;
+}
+
+.signup-area-left{
+    color: white;
+}
+
+.signup-area button{
+    border: 2px solid white;
+}
+
+.signup-area-content1{
+   font-weight: bold;
 }
